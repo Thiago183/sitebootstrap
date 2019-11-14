@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet-Shop</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .fundo{
+            width: 100%;
+            height: 100%;
+        }
+        .distancia{
+            padding-bottom : 20%;
+        }
+        .distancia2{
+            padding-bottom : 10%;
+        }
+        .distancia3{
+            padding-bottom: 5%;
+        }
+        .icones{
+            width : 128px;
+            height : 128px;
+        }
+        .imgPromo{
+            width : 150%; 
+            height : 150%; 
+        }
+        .imgPromoSmall{
+            width : 350; 
+            height : 250px; 
+        }
+        .icone{
+            border: 0ch solid;
+            border-radius: 25px;
+            width: 50px;
+            height: 50px;
+        
+        }
+       body{
+           background-image: url("imagens/paper.jpg");
+       }
+       .bata{
+           width: 90%;
+           height: 80%;
+           border: 1px solid gray;
+           background-color: blanchedalmond;
+           margin-left: 200px;
+
+           border-radius: 4px;
+       }
+       .pede{
+           margin-top: 7px;
+          
+       }
+       .peter{
+           width: 750px;
+           height: 350px;
+       }
+       .cinza{
+           border-radius: 5px;
+           border: 0px solid;
+       }
+       .telacheia{
+        width: 750px;
+           height: 350px;
+       }
+       .peq{
+         
+         height: 250px;;
+       }
+       .icona{
+           width: 36px;
+           height: 36px;
+       }
+       
+       
+        
+        
+          
+        
+        
+    </style>
+    
+   
+    <link rel="icon" type="imagem/png" href="imagens/vetor.jpg" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl bg-primary navbar-light">
+        <div class="container">
+            <img class="icone mr-10" src="imagens/icon.png">
+            <a class="navbar-brand mr-5 " href="index.html">Pet-Shop</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <div class="mr-auto">
+                    <ul class="navbar-nav lead">
+                        <li class="nav-item">
+                            <a href="Apresentaçao.html" class="nav-link text-white">Página Inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="quem.html" class="nav-link text-white">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Serviços.html" class="nav-link text-white">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="cadastro.html" class="nav-link text-white">Cadastre-se</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                             
+                <div class="ml-auto">
+                        
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-auto">
+                            <a href="#" style="width:50px; height:50px; padding-top: 10px;" class="btn btn-outline-light ml-xl-3 mb-3 mb-xl-0 mx-sm-auto d-block rounded-circle">
+                                Sair
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container bata">
+       <h1 class="display-4 text-center">Produtos e Serviços</h1>    
+    <div class="container my-5">
+        <div class="row mb-5">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card h-100">
+                    <img class="card-img-top peq" src="imagens/banho.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Banho</h4>
+                        <br>
+                        <h6 class="card-subtitle text-justify text-center">Damos um belo banho no seu pet e usamos um mix de condicionadores para deixar seu pet brilhando.
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>
+                        <form action="add_item.php" method="POST">
+                            <button class="btn btn-outline-success btn-block card-link">
+                                <label class="mr-3 mt-2">R$ 80,00</label>
+                                <img src="imagens/icons8-cachorro-64.png" class="icona" alt="Carrinho de compras">
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="card h-100">
+                    <img class="card-img-top peq" src="imagens/tasa.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Tosa </h4>
+                        <br>
+                        <h6 class="card-subtitle text-justify text-center">Tosamos seu pet com tesouras tramontina.
+                            
+                        </h6>
+                        
+                    </div>
+                    <div class='card-footer bg-white border-0'>
+                        <form action="add_item.php" method="POST">
+                            <button class="btn btn-outline-success btn-block card-link">
+                                <label class="mr-3 mt-2">R$ 80,00</label>
+                                <img src="imagens/icons8-cachorro-64.png" class="icona" alt="Carrinho de compras">
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="card h-100">
+                    <img class="card-img-top peq" src="imagens/trata.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Tratamento de pelagem</h4>
+                        <br>
+                        <h6 class="card-subtitle text-justify text-center">Tratamos o pelo do seu pet com shampos e condicionadores.
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>
+                        <form action="add_item.php" method="POST">
+                            <button class="btn btn-outline-success btn-block card-link">
+                                <label class="mr-3 mt-2">R$ 100,00</label>
+                                <img src="imagens/icons8-cachorro-64.png" class="icona" alt="Carrinho de compras">
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="card h-100">
+                    <img class="card-img-top peq" src="imagens/colguia.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title text-center mb-2">Coleira azul</h4>
+                        <br>
+                        <h6 class="card-subtitle text-justify text-center">Uma coleira azul com guia.
+                            <br>
+                            <br>
+                        </h6>
+                        <br>
+                    </div>
+                    <div class='card-footer bg-white border-0'>
+                        <form action="add_item.php" method="POST">
+                            <button class="btn btn-outline-success btn-block card-link">
+                                <label class="mr-3 mt-2">R$ 50,00</label>
+                                <img src="imagens/icons8-cachorro-64.png" class="icona" alt="Carrinho de compras">
+                            </button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
